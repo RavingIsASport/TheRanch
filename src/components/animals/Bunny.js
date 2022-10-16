@@ -3,7 +3,10 @@ import BunnyImg from "../../assets/bunnies/index";
 export default function Bunny() {
   return (
     <>
-      <h2 className="text-3xl font-sans text-slate-100 ">Bunnies</h2>
+      <h2 className="text-3xl font-sans text-slate-900 my-4">
+        {" "}
+        Lion Head Bunnies
+      </h2>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={BunnyImg.bunny5}

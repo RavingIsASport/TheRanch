@@ -2,7 +2,7 @@ import OstrichImg from "../../assets/ostrichs";
 export default function Ostrich() {
   return (
     <>
-      <h7 className="text-3xl font-sans text-slate-100">Ostrich</h7>
+      <h1 className="text-3xl font-sans text-slate-900 my-4">Ostrich</h1>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={OstrichImg.ostrich1}

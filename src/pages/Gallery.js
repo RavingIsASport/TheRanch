@@ -14,9 +14,11 @@ export default function Gallery() {
   return (
     <>
       <div className="h-full md:h-full flex flex-col">
-        <h1 className="text-3xl font-serif self-center mt-3">The Animals</h1>
+        <h1 className="text-3xl md:text-4xl font-serif self-center mt-3">
+          The Animals
+        </h1>
         {/* photos body div */}
-        <div className="my-2 ml-2">
+        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2">
           <Bunny />
           <Dove />
           <Ducks />

@@ -3,7 +3,9 @@ import DwarfImg from "../../assets/dwarf goats/index";
 export default function Dwarf() {
   return (
     <>
-      <h5 className="text-3xl font-sans text-slate-100">Dwarf Goats</h5>
+      <h5 className="text-3xl font-sans text-slate-900 my-4">
+        Nigerian Dwarf Goats
+      </h5>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={DwarfImg.dwarf1}

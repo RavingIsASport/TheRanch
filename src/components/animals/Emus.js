@@ -3,7 +3,7 @@ import EmusImg from "../../assets/emus";
 export default function Emus() {
   return (
     <>
-      <h6 className="text-3xl font-sans text-slate-100">Emus</h6>
+      <h6 className="text-3xl font-sans text-slate-900 my-4">Emus</h6>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={EmusImg.emus1}
