@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <div className="h-screen mx-7 sm:w-1/2 sm:m-auto lg:w-2/6 xl:w-2/6">
       <h1 className="text-center text-2xl mt-3 font-Courgette md:text-3xl lg:text-4xl">
-        Reach Me at:
+        Contact Us:
       </h1>
       <form
         className="bg-slate-50/60 p-6 mt-4 mx-2 rounded grid grid-cols-6"

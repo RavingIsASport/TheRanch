@@ -25,17 +25,18 @@ function App() {
   }
   return (
     <div
-      className="m-0 w-full h-full grayscale-[45%]"
+      className="m-0 grayscale-[45%]"
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right",
+        backgroundAttachment: "fixed",
       }}
     >
       <main className="h-full">
         <Navbar />
-        <div className="h-4/5">{component}</div>
+        <div className="h-full">{component}</div>
       </main>
     </div>
   );
