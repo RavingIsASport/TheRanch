@@ -2,7 +2,9 @@ import PoultryImg from "../../assets/poultry";
 export default function Poultry() {
   return (
     <>
-      <h8 className="text-3xl font-sans text-slate-100">Chickens & Roosters</h8>
+      <h1 className="text-3xl font-sans text-slate-900 my-4">
+        Chickens & Roosters
+      </h1>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={PoultryImg.poultry1}

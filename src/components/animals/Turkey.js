@@ -3,7 +3,7 @@ import TurkeyImg from "../../assets/turkeys";
 export default function Turkey() {
   return (
     <>
-      <h8 className="text-3xl font-sans text-slate-100">Turkey</h8>
+      <h1 className="text-3xl font-sans text-slate-900 my-4">Turkey</h1>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={TurkeyImg.turkey1}

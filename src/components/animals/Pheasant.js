@@ -3,7 +3,7 @@ import PheasantImg from "../../assets/pheasant";
 export default function Pheasant() {
   return (
     <>
-      <h7 className="text-3xl font-sans text-slate-100">Pheasant</h7>
+      <h1 className="text-3xl font-sans text-slate-900 my-4">Pheasant</h1>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={PheasantImg.pheasant1}

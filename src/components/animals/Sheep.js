@@ -3,7 +3,7 @@ import SheepImg from "../../assets/sheep";
 export default function Sheep() {
   return (
     <>
-      <h8 className="text-3xl font-sans text-slate-100">Sheep</h8>
+      <h1 className="text-3xl font-sans text-slate-900 my-4">Sheep</h1>
       <div className="flex justify-center flex-wrap gap-2">
         <img
           src={SheepImg.sheep1}
