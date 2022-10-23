@@ -19,12 +19,12 @@ export default function Poultry() {
         <img
           src={PoultryImg.poultry3}
           alt="Poultry"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
+          className="h-52 md:w-2/6 md:h-4/6 border-2 rounded"
         />
         <img
           src={PoultryImg.poultry4}
           alt="Poultry"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
+          className="h-52 md:w-2/6 md:h-4/6 border-2 rounded"
         />
       </div>
     </>

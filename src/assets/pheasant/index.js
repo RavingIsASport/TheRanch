@@ -5,6 +5,8 @@ let PheasantImg = {
   pheasant4: require("./IMG_2192.jpeg"),
   pheasant5: require("./IMG_2434.jpeg"),
   pheasant6: require("./IMG_2441.jpeg"),
+  pheasant7: require("./IMG_2402.jpeg"),
+  pheasant8: require("./IMG_2441.jpeg"),
 };
 
 export default PheasantImg;

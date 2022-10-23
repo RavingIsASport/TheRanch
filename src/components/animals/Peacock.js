@@ -28,7 +28,7 @@ export default function Peacock() {
         <img
           src={PeacockImg.peacock5}
           alt="Peacock"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
+          className="h-52 md:w-1/6 border-2 rounded"
         />
       </div>
     </>

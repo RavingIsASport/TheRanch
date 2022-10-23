@@ -28,12 +28,17 @@ export default function Pheasant() {
         <img
           src={PheasantImg.pheasant5}
           alt="Pheasant"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
+          className="h-52 md:w-52 border-2 rounded"
         />
         <img
           src={PheasantImg.pheasant6}
           alt="Pheasant"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
+          className="h-52 md:w-52 border-2 rounded"
+        />
+        <img
+          src={PheasantImg.pheasant7}
+          alt="Pheasant"
+          className="h-52 md:w-52 border-2 rounded"
         />
       </div>
     </>
