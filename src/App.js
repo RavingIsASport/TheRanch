@@ -17,7 +17,6 @@ import Sheep from "./components/animals/Sheep";
 import Turkey from "./components/animals/Turkey";
 
 import { Route, Routes } from "react-router-dom";
-import Ducks from "./components/animals/Ducks";
 
 function App() {
   return (
@@ -40,8 +39,8 @@ function App() {
           {/* animal routes */}
           <Route path="/gallery/bunnies" element={<Bunny />} />
           <Route path="/gallery/doves" element={<Doves />} />
-          <Route path="/gallery/ducks" element={<Ducks />} />
-          <Route path="/gallery/dwarfs" element={<Dwarf />} />
+          <Route path="/gallery/ducks" element={<Duck />} />
+          <Route path="/gallery/goats" element={<Dwarf />} />
           <Route path="/gallery/emus" element={<Emus />} />
           <Route path="/gallery/ostrichs" element={<Ostrich />} />
           <Route path="/gallery/peacocks" element={<Peacock />} />

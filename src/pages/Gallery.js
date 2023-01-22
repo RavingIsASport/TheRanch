@@ -18,11 +18,10 @@ export default function Gallery() {
         The Animals
       </h1>
       {/* photos body div */}
-      <div className="h-full md:h-full flex flex-col md:grid md:grid-cols-4">
+      <div className="h-full grid grid-cols-2 md:grid-cols-4">
         {/* Bunnies */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2">
           <h2 className="text-xl font-sans text-slate-900 my-4">
-            {" "}
             Lion Head Bunnies
           </h2>
           <div className="flex flex-col items-center">
@@ -33,14 +32,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/bunnies"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 mt-9 rounded hover:bg-sky-300 text-xs "
             >
               See More Bunnies &gt;
             </Link>
           </div>
         </div>
         {/* Doves */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Doves</h2>
           <div className="flex flex-col items-center">
             <img
@@ -50,14 +49,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/doves"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Doves &gt;
             </Link>
           </div>
         </div>
         {/* Duck */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Ducks</h2>
           <div className="flex flex-col items-center">
             <img
@@ -67,14 +66,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/ducks"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Duck &gt;
             </Link>
           </div>
         </div>
         {/* Dwarf */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4">Dwarf Goats</h2>
           <div className="flex flex-col items-center">
             <img
@@ -84,14 +83,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/goats"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Goats &gt;
             </Link>
           </div>
         </div>
         {/* Emus */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Emus</h2>
           <div className="flex flex-col items-center">
             <img
@@ -101,14 +100,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/emus"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Emus &gt;
             </Link>
           </div>
         </div>
         {/* Ostrich */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Ostrichs</h2>
           <div className="flex flex-col items-center">
             <img
@@ -118,14 +117,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/ostrichs"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Ostrichs &gt;
             </Link>
           </div>
         </div>
         {/* Peacocks */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Peacocks</h2>
           <div className="flex flex-col items-center">
             <img
@@ -135,14 +134,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/peacocks"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Peacocks &gt;
             </Link>
           </div>
         </div>
         {/* Pheasants */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/60 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Pheasants</h2>
           <div className="flex flex-col items-center">
             <img
@@ -152,14 +151,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/pheasants"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Pheasants &gt;
             </Link>
           </div>
         </div>
         {/* Poultry */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Poultry</h2>
           <div className="flex flex-col items-center">
             <img
@@ -169,14 +168,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/poultry"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Poultry &gt;
             </Link>
           </div>
         </div>
         {/* Sheep */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Sheeps</h2>
           <div className="flex flex-col items-center">
             <img
@@ -186,14 +185,14 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/sheeps"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Sheeps &gt;
             </Link>
           </div>
         </div>
         {/* Turkey */}
-        <div className="my-2 rounded-xl text-center bg-slate-100/30 mx-2 ">
+        <div className="my-2 rounded-xl text-center bg-slate-100/50 mx-2 ">
           <h2 className="text-xl font-sans text-slate-900 my-4"> Turkeys</h2>
           <div className="flex flex-col items-center">
             <img
@@ -203,7 +202,7 @@ export default function Gallery() {
             />
             <Link
               to="/gallery/turkeys"
-              className=" px-1 bg-sky-400 m-2 rounded hover:bg-sky-300"
+              className=" p-1 bg-sky-400 m-2 rounded hover:bg-sky-300 text-xs"
             >
               See More Turkeys &gt;
             </Link>
