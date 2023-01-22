@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showBtn, setShow] = useState(true);
@@ -12,7 +13,7 @@ function Navbar() {
     <nav className=" bg-slate-200 rounded flex flex-wrap justify-between items-center mx-auto">
       <div>
         <h1 className="ml-5 font-Courgette text-4xl md:text-5xl animate-title text-slate-900 ">
-          <a href="/">Mariposas</a>
+          <Link to="/">Mariposas</Link>
         </h1>
       </div>
       {/* mobile nav */}
@@ -43,21 +44,21 @@ function Navbar() {
         } text-slate-900 w-full md:block md:w-auto md:p-4 rounded-lg`}
       >
         <ul className="grid justify-center md:flex md:flex-row md:justify-between md:gap-x-6 md:mt-0 md:text-md md:font-medium rounded-sm">
-          <a href="/ranch" className="text-xl">
+          <Link to="/ranch" className="text-xl">
             <li className="block py-2 pr-4 pl-3 rounded-md hover:bg-green-800  hover:text-slate-100">
               The Ranch
             </li>
-          </a>
-          <a href="/gallery" className="text-xl">
+          </Link>
+          <Link to="/gallery" className="text-xl">
             <li className="block py-2 pr-4 pl-3 rounded-md hover:bg-green-800  hover:text-slate-100">
               Gallery
             </li>
-          </a>
-          <a href="/contact" className="text-xl">
+          </Link>
+          <Link to="/contact" className="text-xl">
             <li className="block py-2 pr-4 pl-3 rounded-md hover:bg-green-800  hover:text-slate-100">
               Contact
             </li>
-          </a>
+          </Link>
         </ul>
       </div>
     </nav>

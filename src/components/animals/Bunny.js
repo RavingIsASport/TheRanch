@@ -1,13 +1,21 @@
+import { Link } from "react-router-dom";
 import BunnyImg from "../../assets/bunnies/index";
 
 export default function Bunny() {
   return (
     <>
-      <h2 className="text-3xl font-sans text-slate-900 my-4">
-        {" "}
-        Lion Head Bunnies
-      </h2>
-      <div className="flex justify-center flex-wrap gap-2">
+      <div className="grid justify-items-stretc py-2">
+        <Link
+          to="/gallery"
+          className="ml-3 bg-slate-50 justify-self-start rounded-md text-sm p-1"
+        >
+          ⌫ Back
+        </Link>
+        <h2 className="text-xl justify-self-center font-sans text-slate-900">
+          Lion Head Bunnies
+        </h2>
+      </div>
+      <div className="flex justify-center flex-wrap pb-4">
         <img
           src={BunnyImg.bunny5}
           alt="Bunny"
