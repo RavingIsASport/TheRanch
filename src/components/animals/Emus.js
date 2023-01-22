@@ -1,30 +1,26 @@
+import { Link } from "react-router-dom";
 import EmusImg from "../../assets/emus";
 
 export default function Emus() {
   return (
     <>
-      <h6 className="text-3xl font-sans text-slate-900 my-4">Emus</h6>
-      <div className="flex justify-center flex-wrap gap-2">
-        <img
-          src={EmusImg.emus1}
-          alt="Emu"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
-        />
-        <img
-          src={EmusImg.emus2}
-          alt="Emu"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
-        />
-        <img
-          src={EmusImg.emus3}
-          alt="Emu"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
-        />
-        <img
-          src={EmusImg.emus4}
-          alt="Emu"
-          className="w-36 h-52 md:w-1/6 md:h-4/6 border-2 rounded"
-        />
+      <div className="pt-3">
+        <Link
+          to="/gallery"
+          className="ml-3 bg-slate-50 rounded-md text-sm p-1 hover:bg-slate-300"
+        >
+          ⌫ Back
+        </Link>
+      </div>
+      <h4 className="text-lg md:text-2xl text-center font-sans text-slate-900 my-2">
+        Emus
+      </h4>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-2 px-2 pb-20">
+        <img src={EmusImg.emus1} alt="Emu" className="h-60 md:h-96 rounded" />
+        <img src={EmusImg.emus2} alt="Emu" className="h-60 md:h-96 rounded" />
+        <img src={EmusImg.emus3} alt="Emu" className="h-60 md:h-96 rounded" />
+        <img src={EmusImg.emus4} alt="Emu" className="h-60 md:h-96 rounded" />
       </div>
     </>
   );
