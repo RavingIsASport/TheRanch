@@ -19,7 +19,7 @@ function Navbar() {
       {/* mobile nav */}
       <button
         type="button"
-        className="m-5 md:hidden p-1 rounded-md hover:bg-sky-300"
+        className="m-5 md:hidden p-1  hover:bg-sky-400"
         onClick={handleClick}
       >
         <svg
