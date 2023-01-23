@@ -25,7 +25,7 @@ export default function Contact() {
   };
   return (
     <>
-      <h1 className="text-center text-xl mt-3 font-Courgette md:text-3xl lg:text-4xl">
+      <h1 className="text-center text-xl mt-3 font-Courgette md:text-2xl lg:text-4xl">
         Follow us:
       </h1>
       <div className="flex justify-center my-3">
@@ -40,7 +40,9 @@ export default function Contact() {
         </a>
       </div>
       <div className="h-screen mx-7 sm:w-1/2 sm:m-auto lg:w-2/6 xl:w-2/6">
-        <p className="text-center font-Courgette text-xl">Contact us:</p>
+        <p className="text-center font-Courgette text-xl md:text-2xl">
+          Contact us:
+        </p>
         <form
           className="bg-slate-50/60 p-6 mt-4 mx-2 rounded grid grid-cols-6"
           ref={form}
