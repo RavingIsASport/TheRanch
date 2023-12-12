@@ -1,13 +1,13 @@
-import "animate.css";
-
 export default function Ranch() {
   return (
-    <div className="text-center h-screen">
-      <div className="my-6">
-        <h1 className="text-3xl font-Courgette">A Little About Us</h1>
+    <div className="py-8">
+      <div className="">
+        <h1 className="text-3xl font-extrabold ml-4 font-Amatic">
+          A Little About Us
+        </h1>
       </div>
-      <div className="mx-5 md:mx-16 my-6 md:my-20">
-        <p className="rounded bg-slate-100/80 font-Courgette text-[10px] px-4 py-2 md:text-base">
+      <div className="md:mx-16 my-6 md:my-20">
+        <p className="text-sm text-first font-Lora px-4 py-2 md:text-base">
           Ranch, Las Mariposas. It all started with a dream, my mother's dream.
           It was to have a ranch, not just any ranch but one with all types of
           animals, filled with lots of trees and fruits, and most importantly

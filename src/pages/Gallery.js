@@ -13,7 +13,7 @@ import TurkeyPic from "../assets/turkeys/IMG_2183.jpeg";
 
 export default function Gallery() {
   return (
-    <>
+    <div>
       <h1 className="text-2xl md:text-4xl font-serif text-center mt-3">
         The Animals
       </h1>
@@ -205,6 +205,6 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

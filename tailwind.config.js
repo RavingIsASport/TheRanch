@@ -3,9 +3,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        main: "#5A8F7B",
+        first: "#00830E",
+        second: "#88AE7F",
+        third: "#DEF8D6",
+        fourth: "#79B1E0",
+        fifth: "#3F4A3C",
       },
-      fontFamily: { Courgette: ["Courgette", "cursive"] },
+      fontFamily: {
+        Amatic: ["Amatic SC, sans-serif"],
+        Lora: ["Lora, serif"],
+        RobotoSlab: ["Roboto Slab, serif"],
+      },
       keyframes: {
         title: {
           "0%": {

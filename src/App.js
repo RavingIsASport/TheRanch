@@ -1,5 +1,5 @@
-import image from "./assets/Ranch.jpg";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Ranch from "./pages/Ranch";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -20,38 +20,28 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div
-      className="m-0 grayscale-[45%]"
-      style={{
-        backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "right",
-        backgroundAttachment: "fixed",
-      }}
-    >
-      <main className="h-full">
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/ranch" element={<Ranch />} />
-          <Route path="/gallery" element={<Gallery />} />
-          {/* animal routes */}
-          <Route path="/gallery/bunnies" element={<Bunny />} />
-          <Route path="/gallery/doves" element={<Doves />} />
-          <Route path="/gallery/ducks" element={<Duck />} />
-          <Route path="/gallery/goats" element={<Dwarf />} />
-          <Route path="/gallery/emus" element={<Emus />} />
-          <Route path="/gallery/ostrichs" element={<Ostrich />} />
-          <Route path="/gallery/peacocks" element={<Peacock />} />
-          <Route path="/gallery/pheasants" element={<Pheasant />} />
-          <Route path="/gallery/poultry" element={<Poultry />} />
-          <Route path="/gallery/sheeps" element={<Sheep />} />
-          <Route path="/gallery/turkeys" element={<Turkey />} />
-          {/* end og animal routes */}
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </main>
+    <div className="max-h-full relative">
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/ranch" element={<Ranch />} />
+        <Route path="/gallery" element={<Gallery />} />
+        {/* animal routes */}
+        <Route path="/gallery/bunnies" element={<Bunny />} />
+        <Route path="/gallery/doves" element={<Doves />} />
+        <Route path="/gallery/ducks" element={<Duck />} />
+        <Route path="/gallery/goats" element={<Dwarf />} />
+        <Route path="/gallery/emus" element={<Emus />} />
+        <Route path="/gallery/ostrichs" element={<Ostrich />} />
+        <Route path="/gallery/peacocks" element={<Peacock />} />
+        <Route path="/gallery/pheasants" element={<Pheasant />} />
+        <Route path="/gallery/poultry" element={<Poultry />} />
+        <Route path="/gallery/sheeps" element={<Sheep />} />
+        <Route path="/gallery/turkeys" element={<Turkey />} />
+        {/* end og animal routes */}
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
